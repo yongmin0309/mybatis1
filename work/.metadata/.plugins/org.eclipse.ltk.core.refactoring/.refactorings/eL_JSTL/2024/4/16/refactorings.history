@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;eL_JSTL/src/main/webapp/views/jstl/fomattag.jsp&apos; to &apos;formattag.jsp&apos;" description="Rename resource &apos;fomattag.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/views/jstl/fomattag.jsp" name="formattag.jsp" stamp="1713600009690" updateReferences="true"/>
+</session>

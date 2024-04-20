@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+D:\林富\work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2672417377.index
+\eL_JSTL\src\main\java
+D:\林富\work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2764033651.index
+\eL_JSTL\src\main\java
+D:\林富\work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1571782672.index
+\eL_JSTL\src\main\java
+D:\林富\work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1714593221.index
+\eL_JSTL\src\main\java

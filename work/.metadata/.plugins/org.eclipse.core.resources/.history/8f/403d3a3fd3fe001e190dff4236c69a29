@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!-- 이용할 jstl태그를 선언해야함 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jstl</title>
+</head>
+<body>
+	<h2>jstl적용하기</h2>
+	<p>외부라이브러리로 외부에서 제공하는 jar파일을 가져와서 사용</p>
+</body>
+</html>

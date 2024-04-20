@@ -1,0 +1,50 @@
+package com.jstl.model.dto;
+
+public class Food {
+	private String name;
+	private int pirce;
+	private String flavor;
+	
+	public Food() {
+		// TODO Auto-generated constructor stub
+	}
+	//alt+s+a+g
+
+	public Food(String name, int pirce, String flavor) {
+		super();
+		this.name = name;
+		this.pirce = pirce;
+		this.flavor = flavor;
+	}
+
+	//alt+s+r+a+r
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getPirce() {
+		return pirce;
+	}
+
+	public void setPirce(int pirce) {
+		this.pirce = pirce;
+	}
+
+	public String getFlavor() {
+		return flavor;
+	}
+
+	public void setFlavor(String flavor) {
+		this.flavor = flavor;
+	}
+
+	
+	
+	
+	
+	
+}

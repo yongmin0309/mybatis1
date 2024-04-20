@@ -1,0 +1,12 @@
+package com.jstl.model.dto;
+
+public class Food {
+	private String name;
+	private int pirce;
+	private String flavor;
+	
+	public Food() {
+		// TODO Auto-generated constructor stub
+	}
+	//alt+s+a+g
+}
