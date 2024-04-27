@@ -50,9 +50,32 @@
 	<h3><fmt:formatDate value="${today }" type="time" timeStyle="long"/></h3>
 	<h3><fmt:formatDate value="${today }" type="date" dateStyle="full"/></h3>
 	<h3><fmt:formatDate value="${today }" type="time" timeStyle="full"/></h3>
+	<h3><fmt:formatDate value="${today }" type="both" dateStyle="short"/></h3>
 	
+	<h3>패턴으로 스타일 커스터마이징하기</h3>
+	<p>
+		yy(년) MM(월) dd(일) hh(시간) mm(분) ss(초) E(요일)패턴으로 날짜를 표시
+	</p>
+	<h4>
+		<fmt:formatDate value="${today }" type="date"/>
+	</h4>
+	<h4>
+		<fmt:formatDate value="${today }" type="date" pattern="yyyy-MM-dd"/>
+	</h4>
 	
+	<h4>
+		<fmt:formatDate value="${today }" type="date" pattern="yyyy/MM/dd E요일" />
+	</h4>
 	
+	<h4>
+		<fmt:formatDate value="${today }" type="time" pattern="hh:mm:ss"/>
+	</h4>
+	
+	<h3>로케일설정에 따라 날짜를 출력하는 방식 달라짐</h3>
+	<fmt:setLocale value="Fr_FR"/>
+	<h4>
+		<fmt:formatDate value="${today }" type="both" dateStyle="full" timeStyle="full" />
+	</h4>
 	
 	
 </body>
