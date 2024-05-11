@@ -29,7 +29,7 @@ public class InsertStudentServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		String name = request.getParameter("name");
 		int result= new StudentService().insertStudent();
 		
 		response.getWriter().append(result>0?"success":"fail");

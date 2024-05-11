@@ -1,0 +1,3 @@
+SELECT * FROM STUDENT ORDER BY STUDENT_NO desc;
+
+SELECT count(*) FROM student;

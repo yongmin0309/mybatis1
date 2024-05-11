@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.IOError"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="javax.annotation.Resources"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="com.mybatis.model.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.mybatis.common.SqlSessionTemplate"/>
+    <fullyQualifiedTypeName name="com.mybatis.model.servide.StudentService"/>
+    <fullyQualifiedTypeName name="com.mybatis.model.service.StudentService"/>
+</qualifiedTypeNameHistroy>
